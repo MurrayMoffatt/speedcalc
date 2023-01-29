@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pok&eacute;mon Go Speed/Distance Calculator</title>
+    <meta name="Author" content="Murray Moffatt">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="custom.css?v=1" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5BBAD5">
+    <meta name="msapplication-TileColor" content="#2B5797">
+    <meta name="theme-color" content="#FFFFFF">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pok&eacute;mon Go Speed/Distance Calculator</h1>
+      <p id="instructions"><strong>Instructions:</strong> Start Pok&eacute;mon Go app, switch back to this
+        app and press Start button, travel to destination (no more than 1.4km from start and no more
+        than 8 minutes). When Status says <span class="statusok">Good to go</span> switch back to
+        Pok&eacute;mon Go app and and wait 30 secs to get the distance credited to your eggs/buddy.</p>
+      <p>&nbsp;</p>
+      <div id="errormsg" class="error"></div>
+      <div id="status"></div>
+      <p>&nbsp;</p>
+      <p><a href="javascript:void(0);" class="btn" id="btnStartStop">Start</a></p>
+    </div>
+  </body>
+</html>
